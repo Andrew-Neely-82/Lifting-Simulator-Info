@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+.Navbar_ {
+  position: sticky;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #f7ce46;
+  color: white;
+  border-radius: 1em;
+  padding: 8px 16px;
+  margin: 1em;
+  z-index: 10000000;
+
+  .Navbar_title {
+    font-family: "Comic Neue";
+    font-weight: bold;
+    font-size: 2em;
+    padding: 8px 16px;
+  }
+
+  .Navbar_links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+      li {
+        height: 100%;
+        list-style: none;
+        margin: auto;
+
+        a {
+          height: 100%;
+          color: black;
+          text-decoration: none;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+.Navbar_under {
+  position: relative;
+  top: -3.6em;
+  left: 0;
+  height: 2em;
+  width: 100%;
+  background: #f19c38;
+  border-radius: 0 0 1em 1em;
+  padding: 8px 16px;
+  margin: 1em 1em 0 1em;
+  z-index: 1000;
+}

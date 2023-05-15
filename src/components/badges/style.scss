@@ -1,0 +1,130 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+.Badges_ {
+  width: 100%;
+
+  ul {
+    // * this is individual sections
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .Badges_item {
+      display: flex;
+      flex-direction: column;
+      background: #393b3d;
+      border-radius: 1em;
+      padding: 12px;
+      margin: 6px;
+
+      .Badges_image-and-content {
+        display: flex;
+
+        .Badges_badge-image {
+          display: flex;
+
+          a {
+            //
+            img {
+              max-width: 150px;
+              max-height: 150px;
+            }
+          }
+        }
+
+        .Badges_badge-content {
+          display: flex;
+          width: 100%;
+
+          .badge-data-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            padding: 0 12px;
+
+            .Badges_title,
+            .Badges_text {
+              font: 16px "Gotham", sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 500;
+            }
+
+            .Badges_title {
+            }
+            .Badges_text {
+              height: 48px;
+              color: #bdbebe;
+              word-wrap: break-word;
+              margin: 6px 0;
+            }
+          }
+        }
+      }
+
+      .Badges_rarity-list {
+        display: flex;
+        width: 100%;
+        padding: 0 30% 0 0;
+
+        .Badges_rarity-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+
+          .Badges_rarity-title,
+          .Badges_rarity-amount {
+            font: 16px "Gotham", sans-serif;
+            font-weight: 500;
+          }
+          .Badges_rarity-title {
+            color: #bdbebe;
+          }
+
+          .Badges_rarity-amount {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Badges_ {
+    //
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+
+      .Badges_item {
+        .Badges_image-and-content {
+          a {
+            border-radius: 100%s;
+          }
+          .badge-data-container {
+            justify-content: space-around !important;
+            margin-top: 0.5em;
+            .Badges_rarity-list {
+              justify-content: flex-start;
+              margin-bottom: 0.5em;
+              .Badges_rarity-item {
+                align-items: flex-start;
+                justify-content: flex-start;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Badges_ {
+    img {
+      max-width: 100%;
+    }
+  }
+}
