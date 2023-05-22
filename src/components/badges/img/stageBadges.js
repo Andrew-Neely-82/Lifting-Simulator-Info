@@ -35,7 +35,7 @@ export const stages = [
   {
     cat: `stage-rank`,
     href: `https://www.roblox.com/badges/2124484013/The-Stickman`,
-    image: Stage1[2],
+    image: Stage1,
     title: `Body Altering Stage 1`,
     text: `Undergone the first stage of Body Altering!`,
 

@@ -1,5 +1,5 @@
-import { links } from "./index.js";
-import "./style.scss";
+import { links } from './index.js';
+import './style.scss';
 
 const Navbar = () => {
   return (

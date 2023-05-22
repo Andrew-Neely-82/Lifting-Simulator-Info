@@ -1,12 +1,14 @@
-@import url("https://fonts.cdnfonts.com/css/gotham");
+@import url('https://fonts.cdnfonts.com/css/gotham');
 
 .Badges_ {
   width: 100%;
+  margin: 10em 0 0 0;
 
   ul {
     // * this is individual sections
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
 
     .Badges_item {
       display: flex;
@@ -44,7 +46,7 @@
 
             .Badges_title,
             .Badges_text {
-              font: 16px "Gotham", sans-serif;
+              font: 16px 'Gotham', sans-serif;
               color: white;
               font-size: 16px;
               font-weight: 500;
@@ -76,7 +78,7 @@
 
           .Badges_rarity-title,
           .Badges_rarity-amount {
-            font: 16px "Gotham", sans-serif;
+            font: 16px 'Gotham', sans-serif;
             font-weight: 500;
           }
           .Badges_rarity-title {

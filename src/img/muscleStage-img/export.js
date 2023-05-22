@@ -1,6 +1,9 @@
+export { default as Almighty } from './Almighty.png';
 export { default as Beast } from './Beast.png';
 export { default as Biggest } from './Biggest.png';
+export { default as Godly } from './Godly.png';
 export { default as Heroic } from './Heroic.png';
+export { default as Invincible } from './Invincible.png';
 export { default as Killer } from './Killer.png';
 export { default as Notorious } from './Notorious.png';
 export { default as Stickman } from './stickman.png';
